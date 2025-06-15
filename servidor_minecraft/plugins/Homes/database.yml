@@ -1,0 +1,6 @@
+database:
+  enabled: 'false'
+  host: localhost
+  database: homes
+  user: admin
+  password: '123'

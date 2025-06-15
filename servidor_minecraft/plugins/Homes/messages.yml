@@ -1,0 +1,31 @@
+messages:
+  home_save_success_2: §aYou can now access it with /homes
+  home_save_success_1: §aSuccessfully saved home!
+  homes_next_site: §7§l> §eView next site
+  add_home_wrong_input: §cWrong input!
+  prefix: <mm><gradient:#41D1FF:#55FDB2>Homes</gradient> <gray> | <reset>
+  home_no_space: §cYou don't have enough space to add more homes
+  rename_cancelled: §aSuccessfully renamed home
+  homes_gui_delete_confirm: §2Confirm deletion
+  homes_gui_title: §3Your Homes §7(§b%homes% §7/ §b%maxhomes%§7)
+  action_gui_renane_text_2: §eType cancel to cancel the renaming process
+  no_homes_2: §eYou can create a new home with §6/addhome <name>
+  action_gui_teleport: §5Teleport to home
+  no_homes_1: §cYou don't have any homes!
+  rename_success: §aSuccessfully renamed home
+  homes_gui_delete_home_success: §aSuccessfully deleted home!
+  navigation_reached: §aHome reached
+  action_gui_rename_text_1: §eYou can now use /rename <Text> to rename your home!
+  homes_gui_delete: §cRightclick to delete home!
+  homes_gui_delete_cancel: §cCancel deletion
+  homes_gui_delete_cancel_success: §aSuccessfully cancelled action!
+  homes_gui_access: §2Leftclick to view more!
+  action_gui_navigate: §3Navigate to home
+  reload_messages_success: §aSuccessfully reloaded messages
+  action_gui_rename: §6Rename home
+  action_gui_teleport_success: §aSuccessfully teleported to home!
+  rename_wrong_input: §cYou can't use spaces or leave it empty! Use _ Instead
+  action_gui_title: §bSelect an action
+  add_home_usage: §6/addhomeperm <name> <homeamount>
+  navigation_distance: <> §6Blocks distance
+  homes_gui_delete_title: §cDelete home
