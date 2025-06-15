@@ -1,207 +1,154 @@
-[11:06:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[11:06:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[11:06:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[11:06:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[11:06:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[18:16:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[18:16:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
+[18:16:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:16:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[18:16:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - Chunky (1.4.36), ConditionalEvents (4.63.1), Essentials (2.21.2-dev+2-d42347f), EssentialsChat (2.21.2-dev+2-d42347f), EssentialsSpawn (2.21.2-dev+2-d42347f), Geyser-Spigot (2.7.1-SNAPSHOT), MiniMOTD (2.1.5), PlayerKits2 (1.17.5), Vault (1.7.3-b131), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), zMenu (1.0.4.1)
-[11:06:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:06:16] [ServerMain/INFO]: Loaded 1370 recipes
-[11:06:16] [ServerMain/INFO]: Loaded 1481 advancements
-[11:06:16] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[11:06:17] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 223.0ms
-[11:06:17] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[11:06:17] [Server thread/INFO]: Loading properties
-[11:06:17] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[11:06:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[11:06:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:06:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:06:18] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[11:06:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[11:06:18] [Server thread/INFO]: Default game type: SURVIVAL
-[11:06:18] [Server thread/INFO]: Generating keypair
-[11:06:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:06:18] [Server thread/INFO]: Using epoll channel type
-[11:06:18] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:06:18] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:06:20] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[11:06:20] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[11:06:20] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[11:06:20] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[11:06:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[11:06:21] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+2-d42347f
-[11:06:21] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[11:06:21] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[11:06:22] [Server thread/INFO]: [floodgate] Took 675ms to boot Floodgate
-[11:06:22] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.1.5
-[11:06:22] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+2-d42347f
-[11:06:22] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
-[11:06:22] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[11:06:22] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[11:06:22] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[11:06:22] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.17.5
-[11:06:22] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+2-d42347f
-[11:06:22] [Server thread/INFO]: [zMenu] Loading server plugin zMenu v1.0.4.1
-[11:06:22] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.63.1
-[11:06:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:06:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[11:06:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[11:06:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[11:06:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[11:06:22] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:06:22] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:06:22] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:06:22] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:06:22] [Server thread/INFO]: Preparing level "world"
-[11:06:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:06:23] [Server thread/INFO]: Preparing spawn area: 0%
-[11:06:24] [Server thread/INFO]: Preparing spawn area: 0%
-[11:06:24] [Server thread/INFO]: Preparing spawn area: 0%
-[11:06:24] [Server thread/INFO]: Time elapsed: 1018 ms
-[11:06:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:06:24] [Server thread/INFO]: Preparing spawn area: 0%
-[11:06:24] [Server thread/INFO]: Time elapsed: 276 ms
-[11:06:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:06:24] [Server thread/INFO]: Preparing spawn area: 0%
-[11:06:24] [Server thread/INFO]: Time elapsed: 171 ms
-[11:06:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[11:06:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[11:06:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+2-d42347f
-[11:06:25] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[11:06:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[11:06:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[11:06:25] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[11:06:26] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[11:06:26] [Server thread/INFO]: [Essentials] Using locale en
-[11:06:26] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[11:06:26] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[11:06:26] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[11:06:26] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[11:06:26] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[11:06:27] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.1.5
-[11:06:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+2-d42347f
-[11:06:27] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[11:06:27] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
-[11:06:27] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[11:06:27] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.17.5
-[11:06:27] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.17.5
-[11:06:27] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
-[11:06:27] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+2-d42347f
-[11:06:27] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[11:06:27] [Server thread/INFO]: [zMenu] Enabling zMenu v1.0.4.1
-[11:06:27] [Server thread/INFO]: [zMenu v1.0.4.1] === ENABLE START ===
-[11:06:27] [Server thread/INFO]: [zMenu v1.0.4.1] Plugin Version V1.0.4.1
-[11:06:28] [Server thread/INFO]: [zMenu v1.0.4.1] plugins/zMenu/website/inventories.yml loaded successfully !
-[11:06:28] [Server thread/INFO]: [zMenu v1.0.4.1] 
-[11:06:28] [Server thread/INFO]: [zMenu v1.0.4.1] You can support zMenu by upgrading your account here: https://minecraft-inventory-builder.com/account-upgrade
-[11:06:28] [Server thread/INFO]: [zMenu v1.0.4.1] zMenu’s site includes an inventory editor (under development), a marketplace (already available) is a forum (under development)
-[11:06:28] [Server thread/INFO]: [zMenu v1.0.4.1] 
-[11:06:28] [Server thread/INFO]: [zMenu v1.0.4.1] Use ComponentMeta
-[11:06:28] [Server thread/INFO]: [zMenu v1.0.4.1] Loading 1 commands
-[11:06:28] [Server thread/INFO]: [zMenu v1.0.4.1] === ENABLE DONE (240ms) ===
-[11:06:28] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.63.1
-[11:06:28] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.63.1
-[11:06:28] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
-[11:06:28] [Server thread/INFO]: [spark] Starting background profiler...
-[11:06:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:06:28] [Server thread/INFO]: [Geyser-Spigot] 
-[11:06:28] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b841 (git-master-f104a3d)
-[11:06:28] [Server thread/INFO]: [Geyser-Spigot] 
-[11:06:28] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:06:32] [pool-14-thread-1/WARN]: [floodgate] 
+[18:16:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:16:42] [ServerMain/INFO]: Loaded 1370 recipes
+[18:16:42] [ServerMain/INFO]: Loaded 1481 advancements
+[18:16:42] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[18:16:42] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 207.3ms
+[18:16:42] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[18:16:42] [Server thread/INFO]: Loading properties
+[18:16:42] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[18:16:42] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:16:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:16:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:16:43] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:16:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:16:43] [Server thread/INFO]: Default game type: SURVIVAL
+[18:16:43] [Server thread/INFO]: Generating keypair
+[18:16:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:16:43] [Server thread/INFO]: Using epoll channel type
+[18:16:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:16:43] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:16:46] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:16:46] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[18:16:46] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[18:16:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:16:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:16:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+2-d42347f
+[18:16:47] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[18:16:47] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[18:16:47] [Server thread/INFO]: [floodgate] Took 604ms to boot Floodgate
+[18:16:47] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.1.5
+[18:16:47] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+2-d42347f
+[18:16:47] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.36
+[18:16:47] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[18:16:48] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[18:16:48] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[18:16:48] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.17.5
+[18:16:48] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+2-d42347f
+[18:16:48] [Server thread/INFO]: [zMenu] Loading server plugin zMenu v1.0.4.1
+[18:16:48] [Server thread/INFO]: [ConditionalEvents] Loading server plugin ConditionalEvents v4.63.1
+[18:16:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:16:48] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:16:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:16:48] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:16:48] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:16:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:16:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:16:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:16:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:16:48] [Server thread/INFO]: Preparing level "world"
+[18:16:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:16:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:16:49] [Server thread/INFO]: Preparing spawn area: 0%
+[18:16:50] [Server thread/INFO]: Preparing spawn area: 0%
+[18:16:50] [Server thread/INFO]: Time elapsed: 1040 ms
+[18:16:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:16:50] [Server thread/INFO]: Preparing spawn area: 0%
+[18:16:50] [Server thread/INFO]: Time elapsed: 190 ms
+[18:16:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:16:50] [Server thread/INFO]: Preparing spawn area: 0%
+[18:16:50] [Server thread/INFO]: Time elapsed: 154 ms
+[18:16:50] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[18:16:50] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[18:16:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+2-d42347f
+[18:16:50] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:16:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:16:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[18:16:51] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[18:16:52] [Server thread/INFO]: [Essentials] Using locale en
+[18:16:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:16:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:16:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:16:52] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[18:16:52] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[18:16:52] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.1.5
+[18:16:53] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+2-d42347f
+[18:16:53] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[18:16:53] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.36
+[18:16:53] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[18:16:53] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.17.5
+[18:16:53] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.17.5
+[18:16:53] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[18:16:53] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+2-d42347f
+[18:16:53] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:16:53] [Server thread/INFO]: [zMenu] Enabling zMenu v1.0.4.1
+[18:16:53] [Server thread/INFO]: [zMenu v1.0.4.1] === ENABLE START ===
+[18:16:53] [Server thread/INFO]: [zMenu v1.0.4.1] Plugin Version V1.0.4.1
+[18:16:54] [Server thread/INFO]: [zMenu v1.0.4.1] plugins/zMenu/website/inventories.yml loaded successfully !
+[18:16:54] [Server thread/INFO]: [zMenu v1.0.4.1] 
+[18:16:54] [Server thread/INFO]: [zMenu v1.0.4.1] You can support zMenu by upgrading your account here: https://minecraft-inventory-builder.com/account-upgrade
+[18:16:54] [Server thread/INFO]: [zMenu v1.0.4.1] zMenu’s site includes an inventory editor (under development), a marketplace (already available) is a forum (under development)
+[18:16:54] [Server thread/INFO]: [zMenu v1.0.4.1] 
+[18:16:54] [Server thread/INFO]: [zMenu v1.0.4.1] Use ComponentMeta
+[18:16:54] [Server thread/INFO]: [zMenu v1.0.4.1] Loading 1 commands
+[18:16:54] [Server thread/INFO]: [zMenu v1.0.4.1] === ENABLE DONE (191ms) ===
+[18:16:54] [Server thread/INFO]: [ConditionalEvents] Enabling ConditionalEvents v4.63.1
+[18:16:54] [Server thread/INFO]: [ConditionalEvents] Has been enabled! Version: 4.63.1
+[18:16:54] [Server thread/INFO]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[18:16:54] [Server thread/INFO]: [spark] Starting background profiler...
+[18:16:54] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:16:54] [Server thread/INFO]: [Geyser-Spigot] 
+[18:16:54] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b841 (git-master-f104a3d)
+[18:16:54] [Server thread/INFO]: [Geyser-Spigot] 
+[18:16:54] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:16:57] [pool-14-thread-1/WARN]: [floodgate] 
 **********************************
 * The prefix you entered in your Floodgate config (_) could lead to username conflicts!
 * Should a Java player join with the username _Notch, and a Bedrock player join as Notch (who will be given the name _Notch), unwanted results will happen!
 * We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
 **********************************
-[11:06:33] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
-[11:06:33] [Server thread/INFO]: [Geyser-Spigot] Done (4.526s)! Run /geyser help for help!
-[11:06:33] [Server thread/INFO]: Done preparing level "world" (10.672s)
-[11:06:33] [Server thread/INFO]: Running delayed init tasks
-[11:06:33] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[11:06:33] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[11:06:33] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
-[11:06:33] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[11:06:33] [Server thread/INFO]: Done (24.570s)! For help, type "help"
-[11:06:33] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
-[11:06:33] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
-[11:06:33] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[11:06:33] [Craft Scheduler Thread - 1 - MiniMOTD/INFO]: [MiniMOTD] There is an update available for MiniMOTD!
-[11:06:33] [Craft Scheduler Thread - 1 - MiniMOTD/INFO]: [MiniMOTD] This server is running version v2.1.5, which is 1 versions outdated.
-[11:06:33] [Craft Scheduler Thread - 1 - MiniMOTD/INFO]: [MiniMOTD] Download the latest version, v2.1.6 from GitHub at the link below:
-[11:06:33] [Craft Scheduler Thread - 1 - MiniMOTD/INFO]: [MiniMOTD] https://github.com/jpenilla/MiniMOTD/releases/tag/v2.1.6
-[11:06:33] [Craft Scheduler Thread - 5 - zMenu/INFO]: [zMenu v1.0.4.1] No update available.
-[11:10:01] [Server thread/INFO]: Stopping the server
-[11:10:01] [Server thread/INFO]: Stopping server
-[11:10:01] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.63.1
-[11:10:01] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.63.1
-[11:10:01] [Server thread/INFO]: [zMenu] Disabling zMenu v1.0.4.1
-[11:10:01] [Server thread/INFO]: [zMenu v1.0.4.1] === DISABLE START ===
-[11:10:01] [Server thread/INFO]: [zMenu v1.0.4.1] === DISABLE DONE (3ms) ===
-[11:10:01] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2-dev+2-d42347f
-[11:10:01] [Server thread/INFO]: [PlayerKits2] Disabling PlayerKits2 v1.17.5
-[11:10:01] [Server thread/INFO]: [PlayerKits²] Has been disabled! Version: 1.17.5
-[11:10:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[11:10:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[11:10:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[11:10:01] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
-[11:10:01] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2-dev+2-d42347f
-[11:10:01] [Server thread/INFO]: [MiniMOTD] Disabling MiniMOTD v2.1.5
-[11:10:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[11:10:01] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+2-d42347f
-[11:10:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[11:10:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[11:10:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[11:10:01] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[11:10:01] [Server thread/INFO]: Saving players
-[11:10:01] [WebSocketConnectReadThread-98/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[11:10:01] [Server thread/INFO]: Saving worlds
-[11:10:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.38s
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[11:10:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.12s
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[11:10:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[11:10:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[11:10:02] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
-[11:10:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[11:10:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[11:10:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:10:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:10:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:10:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:10:02] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[11:10:02] [Server thread/INFO]: All I/O tasks to complete
-[11:10:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[11:10:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:16:59] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[18:16:59] [Server thread/INFO]: [Geyser-Spigot] Done (4.426s)! Run /geyser help for help!
+[18:16:59] [Server thread/INFO]: Done preparing level "world" (10.923s)
+[18:16:59] [Server thread/INFO]: Running delayed init tasks
+[18:16:59] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:16:59] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:16:59] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:16:59] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:16:59] [Server thread/INFO]: Done (24.734s)! For help, type "help"
+[18:16:59] [Craft Scheduler Thread - 6 - Vault/WARN]: [Vault] No files found, or Feed URL is bad.
+[18:16:59] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[18:16:59] [Craft Scheduler Thread - 0 - MiniMOTD/INFO]: [MiniMOTD] There is an update available for MiniMOTD!
+[18:16:59] [Craft Scheduler Thread - 0 - MiniMOTD/INFO]: [MiniMOTD] This server is running version v2.1.5, which is 1 versions outdated.
+[18:16:59] [Craft Scheduler Thread - 0 - MiniMOTD/INFO]: [MiniMOTD] Download the latest version, v2.1.6 from GitHub at the link below:
+[18:16:59] [Craft Scheduler Thread - 0 - MiniMOTD/INFO]: [MiniMOTD] https://github.com/jpenilla/MiniMOTD/releases/tag/v2.1.6
+[18:16:59] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
+[18:16:59] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[18:16:59] [Craft Scheduler Thread - 4 - zMenu/INFO]: [zMenu v1.0.4.1] No update available.
