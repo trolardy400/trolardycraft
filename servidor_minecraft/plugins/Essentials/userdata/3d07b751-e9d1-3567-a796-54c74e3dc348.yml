@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1749978116824
+  logout: 1749981876782
   login: 1749980352514
 money: '0'
 last-account-name: Trolardy400
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 0ab4d154-a95e-43bb-9611-0c551bd1e631
   world-name: world
-  x: 117.34196651120315
-  y: 89.37238506025439
-  z: 51.66275832405217
-  yaw: -52.4981689453125
-  pitch: 6.150049686431885
+  x: 102.01894999927424
+  y: 67.0
+  z: -0.01438409195575295
+  yaw: -158.4007110595703
+  pitch: -5.1000075340271

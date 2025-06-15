@@ -362,3 +362,95 @@ Caused by: java.lang.NumberFormatException: Cannot parse null string
 	... 27 more
 [09:57:17] [Server thread/INFO]: Trolardy400 issued server command: /homes:reloadperms
 [09:57:26] [Server thread/INFO]: Trolardy400 issued server command: /homes:reloadmessages
+[10:01:33] [Server thread/INFO]: Trolardy400 issued server command: /homes:homes
+[10:01:33] [Server thread/ERROR]: Command exception: /homes:homes
+org.bukkit.command.CommandException: Unhandled exception executing command 'homes:homes' in plugin Homes v2.0
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:347) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:341) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because the return value of "de.pqtriick.homes.data.ConfigurationManager.getHomes(org.bukkit.entity.Player)" is null
+	at homes.jar/de.pqtriick.homes.commands.player.HomeCommand.onCommand(HomeCommand.java:37) ~[homes.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 27 more
+[10:04:36] [Server thread/INFO]: Trolardy400 issued server command: /restart
+[10:04:36] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[10:04:36] [Server thread/INFO]: Trolardy400 lost connection: Server is restarting
+[10:04:36] [Server thread/INFO]: Trolardy400 left the game
+[10:04:37] [Server thread/INFO]: Stopping server
+[10:04:37] [Server thread/INFO]: [ConditionalEvents] Disabling ConditionalEvents v4.63.1
+[10:04:37] [Server thread/INFO]: [ConditionalEvents] Has been disabled! Version: 4.63.1
+[10:04:37] [Server thread/INFO]: [zMenu] Disabling zMenu v1.0.4.1
+[10:04:37] [Server thread/INFO]: [zMenu v1.0.4.1] === DISABLE START ===
+[10:04:37] [Server thread/INFO]: [zMenu v1.0.4.1] === DISABLE DONE (2ms) ===
+[10:04:37] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2-dev+2-d42347f
+[10:04:37] [Server thread/INFO]: [PlayerKits2] Disabling PlayerKits2 v1.17.5
+[10:04:37] [Server thread/INFO]: [PlayerKits²] Has been disabled! Version: 1.17.5
+[10:04:37] [Server thread/INFO]: [Homes] Disabling Homes v2.0
+[10:04:37] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[10:04:37] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[10:04:37] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[10:04:37] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
+[10:04:37] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2-dev+2-d42347f
+[10:04:37] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[10:04:37] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:04:37] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[10:04:37] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+2-d42347f
+[10:04:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[10:04:37] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[10:04:37] [Server thread/INFO]: Saving players
+[10:04:37] [Server thread/INFO]: Saving worlds
+[10:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:04:37] [WebSocketConnectReadThread-97/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 168 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[10:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[10:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[10:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[10:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:04:37] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[10:04:37] [Server thread/INFO]: All I/O tasks to complete
+[10:04:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[10:04:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
