@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.163.133.172
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1749978116824
+  login: 1749980352514
+money: '0'
+last-account-name: Trolardy400
+lastlocation:
+  world: 0ab4d154-a95e-43bb-9611-0c551bd1e631
+  world-name: world
+  x: 65.5
+  y: 70.0
+  z: -1.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 0ab4d154-a95e-43bb-9611-0c551bd1e631
+  world-name: world
+  x: 117.34196651120315
+  y: 89.37238506025439
+  z: 51.66275832405217
+  yaw: -52.4981689453125
+  pitch: 6.150049686431885
