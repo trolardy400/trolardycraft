@@ -121,3 +121,7 @@
 [01:23:08] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
 [01:23:09] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
 [01:23:09] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[01:41:46] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username Trolardy400
+[01:41:46] [localSession-7-2/INFO]: [Geyser-Spigot] Trolardy400 (logged in as: Trolardy400) has connected to the Java server
+[01:41:47] [localSession-7-2/INFO]: [Geyser-Spigot] Trolardy400 has disconnected from the Java server because of Outdated server! I'm still on 1.21.4
+[01:41:47] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as _Trolardy400 disconnected
