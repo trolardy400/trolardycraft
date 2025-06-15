@@ -125,3 +125,47 @@
 [01:41:46] [localSession-7-2/INFO]: [Geyser-Spigot] Trolardy400 (logged in as: Trolardy400) has connected to the Java server
 [01:41:47] [localSession-7-2/INFO]: [Geyser-Spigot] Trolardy400 has disconnected from the Java server because of Outdated server! I'm still on 1.21.4
 [01:41:47] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as _Trolardy400 disconnected
+[01:44:57] [Server thread/INFO]: Stopping the server
+[01:44:57] [Server thread/INFO]: Stopping server
+[01:44:58] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2-dev+2-d42347f
+[01:44:58] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[01:44:58] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:44:58] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:44:58] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.36
+[01:44:58] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2-dev+2-d42347f
+[01:44:58] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[01:44:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+2-d42347f
+[01:44:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[01:44:58] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[01:44:58] [Server thread/INFO]: Saving players
+[01:44:58] [WebSocketConnectReadThread-84/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:44:58] [Server thread/INFO]: Saving worlds
+[01:44:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[01:44:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[01:44:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[01:44:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[01:44:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:44:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:44:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:44:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:44:58] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[01:44:58] [Server thread/INFO]: All I/O tasks to complete
+[01:44:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:44:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
